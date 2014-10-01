@@ -16,6 +16,10 @@ public class Operaciones {
     public float sumarFloats(float float1, float float2) {
         return float1 + float2;
     }
+    
+    public float sumarMixto(int int1, float float1) {
+        return int1 + float1;
+    }
 
     public int getInt1() {
         return int1;
