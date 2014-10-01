@@ -4,6 +4,11 @@ public class Operaciones {
 
     private int int1, int2;
 
+    public Operaciones(int int1, int int2) {
+        this.int1 = int1;
+        this.int2 = int2;
+    }
+
     public int sumarInts(int int1, int int2) {
         return int1 + int2;
     }
