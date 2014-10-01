@@ -9,12 +9,20 @@ public class Operaciones {
         this.int2 = int2;
     }
 
+    public int sumarAtributosOperacion(int int1, int int2) {
+        return this.int1 + this.int2;
+    }
+
     public int sumarInts(int int1, int int2) {
         return int1 + int2;
     }
 
     public float sumarFloats(float float1, float float2) {
         return float1 + float2;
+    }
+
+    public float sumarMixto(int int1, float float1) {
+        return int1 + float1;
     }
 
     public int restarInts(int int1, int int2) {
