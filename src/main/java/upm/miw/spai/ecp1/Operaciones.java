@@ -29,6 +29,10 @@ public class Operaciones {
         return (int) (int1 / int2);
     }
 
+    public float dividirConDecimales(int int1, int int2) {
+        return int1 / int2;
+    }
+
     public int getInt1() {
         return int1;
     }
