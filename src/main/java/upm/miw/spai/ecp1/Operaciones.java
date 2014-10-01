@@ -13,6 +13,10 @@ public class Operaciones {
         return int1 + int2;
     }
 
+    public float sumarFloats(float float1, float float2) {
+        return float1 + float2;
+    }
+
     public int getInt1() {
         return int1;
     }
