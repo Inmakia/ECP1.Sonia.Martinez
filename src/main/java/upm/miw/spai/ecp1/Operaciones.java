@@ -1,8 +1,12 @@
 package upm.miw.spai.ecp1;
 
 public class Operaciones {
-    
+
     private int int1, int2, int3;
+
+    public int sumarInts(int int1, int int2) {
+        return int1 + int2;
+    }
 
     public int getInt1() {
         return int1;
@@ -27,5 +31,5 @@ public class Operaciones {
     public void setInt3(int int3) {
         this.int3 = int3;
     }
-    
+
 }
