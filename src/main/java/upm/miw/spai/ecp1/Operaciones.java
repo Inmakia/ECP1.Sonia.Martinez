@@ -25,6 +25,10 @@ public class Operaciones {
         return int1 * int2;
     }
 
+    public int dividirInts(int int1, int int2) {
+        return (int) (int1 / int2);
+    }
+
     public int getInt1() {
         return int1;
     }
