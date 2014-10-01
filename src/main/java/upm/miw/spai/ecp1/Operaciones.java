@@ -29,6 +29,10 @@ public class Operaciones {
         return int1 - int2;
     }
 
+    public float restarFloats(float float1, float float2) {
+        return float1 - float2;
+    }
+
     public int multiplicarInts(int int1, int int2) {
         return int1 * int2;
     }
