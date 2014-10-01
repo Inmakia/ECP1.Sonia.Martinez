@@ -2,10 +2,19 @@ package upm.miw.spai.ecp1;
 
 public class Operaciones {
 
-    private int int1, int2, int3;
+    private int int1, int2;
+
+    public Operaciones(int int1, int int2) {
+        this.int1 = int1;
+        this.int2 = int2;
+    }
 
     public int sumarInts(int int1, int int2) {
         return int1 + int2;
+    }
+
+    public float sumarFloats(float float1, float float2) {
+        return float1 + float2;
     }
 
     public int restarInts(int int1, int int2) {
@@ -30,14 +39,6 @@ public class Operaciones {
 
     public void setInt2(int int2) {
         this.int2 = int2;
-    }
-
-    public int getInt3() {
-        return int3;
-    }
-
-    public void setInt3(int int3) {
-        this.int3 = int3;
     }
 
 }
